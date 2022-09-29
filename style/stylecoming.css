@@ -1,0 +1,1219 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;700&family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap');
+:root{
+    --color-black-text: #000000;
+    --color-blue-text: #0BBCCD;
+    --color-background: #fff;
+    --primColor: #dcdcdc;
+    --secoColor: #555555;
+    --spancolor: #FC0D1B;
+}
+
+body{
+    background: var(--color-background);
+    font-family: "Roboto", sans-serif;
+    height: 1800px;
+    max-width: 1085px;
+}
+
+#container{
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #FFFFFF 89.37%, rgba(75, 79, 88, 0.25) 100%);
+}
+a:hover{
+    transition: 0.6s ease;
+    transform: scale(1.1);
+}
+span{
+    color: var(--spancolor);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input{
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    min-width: 200px;
+    padding: 0.5em 0.75em;
+    border-radius: 0.2em;
+    border: 1px solid #0BBCCD;
+    letter-spacing: 0.1ch;
+    width: 100%;
+    color: #324252;
+    font-size: 22px;
+    box-shadow: 0 1px 3px -2px #9098a9;
+}
+
+button{
+    cursor: pointer;
+    position: absolute;
+    color: #fff;
+    width: 126px;
+    height: 47px;
+    left: 1300px;
+    top: 1450px;
+    background: #324252;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.6s ease;
+}
+h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.pricemaximum:hover{
+    transform: scaleX(0,5.0,5);
+    transition: .6s ease;
+}
+.priceminimum:hover{
+    transform: scaleX(0,5.0,5);
+    transition: .6s ease;
+}
+.pricetotal:hover{
+    transform: scaleX(0,5.0,5);
+    transition: .6s ease;
+}
+.select{
+    min-width: 200px;
+    -webkit-appearance: none;
+    padding: 7px 40px 7px 12px;
+    width: 100%;
+    border: 1px solid #0BBCCD;
+    border-radius: 0.2em;
+    background: #fff;
+    box-shadow: 0 1px 3px -2px #9098a9;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    transition: all 150ms ease;
+    color: #5a667f;
+}
+header #logo{
+    position: absolute;
+    width: 147.28px;
+    height: 55px;
+    left: 158px;
+    top: 14px;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1000px;
+    width: 250px;
+
+}
+
+header li{
+    position: relative;
+    height: 40px;
+    top: 48px;
+    list-style: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+header li a{
+    display: block;
+    list-style: none;
+    width: 130px;
+    font-size: 1em;
+    margin-left: 2px;
+    text-decoration: none;
+
+color: #324252;
+}
+header li a:hover{
+    color: #0BBCCD;
+}
+.estimate img{
+    width: 100%;
+}
+.estimate{
+    position: absolute;
+    width: 100%;
+    height: 351px;
+    left: 0px;
+    top: 120px;
+
+    background: linear-gradient(0deg, rgba(0, 40, 57, 0.5), rgba(0, 40, 57, 0.5));
+}
+
+.midtext h1{
+    position: relative;
+    left: 551px;
+    width: 564px;
+    height: 74px;
+    text-align: center;
+    justify-content: center;
+    top: 184px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 74px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.midtext h2{
+    position: absolute;
+    width: 119px;
+    height: 41px;
+    left: 800px;
+    text-align: center;
+    top: 340px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+/* --------------- Swap material ------------------*/
+.material{
+    position: absolute;
+    display: flex;
+    top: 690px;
+    left: 551px;
+    text-align: center;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shingle{
+    box-sizing: border-box;
+    width: 118px;
+    height: 118px;
+    left: 388px;
+    top: 586px;
+    border: 2px solid #0BBCCD;
+    border-radius: 50%;
+}
+.shingle a{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+.shingle p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #324252;
+}
+
+
+.tile{
+    box-sizing: border-box;
+    width: 118px;
+    height: 118px;
+    left: 388px;
+    top: 586px;
+    border: 2px solid #0BBCCD;
+    border-radius: 50%;
+}
+.tile a{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+.tile p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #324252;
+}
+
+
+.metal{
+    box-sizing: border-box;
+    width: 118px;
+    height: 118px;
+    left: 388px;
+    top: 586px;
+    border: 2px solid #0BBCCD;
+    border-radius: 50%;
+}
+.metal a{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+.metal p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #324252;
+}
+
+
+.membrane{
+    box-sizing: border-box;
+    width: 118px;
+    height: 118px;
+    left: 388px;
+    top: 586px;
+    border: 2px solid #0BBCCD;
+    border-radius: 50%;
+}
+.membrane a{
+    display: block;
+    text-align: center;
+    margin-top: 0;
+}
+.membrane p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #324252;
+}
+
+/* ----------------- Finish material ------------- */
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 523px;
+    left: 0px;
+    top: 950px;
+    background: #E6E6E6;
+    text-align: center;
+    
+}
+
+.soon{
+    box-sizing: border-box;
+    position: absolute;
+    width: 487px;
+    height: 199px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #00B9CF;
+    border: 5px solid #FFFFFF;
+    border-radius: 99px;
+}
+.soon p{
+    position: absolute;
+    width: 360px;
+    height: 67px;
+    margin: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+/* --------------- FOOTER -------------------*/
+
+.footer{
+    position: relative;
+    top: 1500px;
+    background: #324252;
+    width: 100%;
+    height: 300px;
+}
+
+.footer .because{
+    position: relative;
+    color: #00b9cf;
+    width: 310px;
+    top: 40px;
+    left: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer .orlando h2{
+    position: relative;
+    color: #fff;
+    width: 140px;
+    top: 40px;
+    left: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer .orlando h3{
+    position: relative;
+    color: #fff;
+    width: 250px;
+    top: 25px;
+    left: 100px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer .panhandle h2{
+    position: relative;
+    color: #fff;
+    width: 170px;
+    top: 40px;
+    left: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer .panhandle h3{
+    position: relative;
+    color: #fff;
+    width: 250px;
+    top: 25px;
+    left: 100px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer .contact h2{
+    position: absolute;
+    color: #fff;
+    width: 170px;
+    top: 30px;
+    left: 600px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer .contact .office{
+    position: absolute;
+    color: #fff;
+    width: 280px;
+    top: 60px;
+    left: 600px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.footer .contact .email{
+    position: absolute;
+    color: #fff;
+    width: 300px;
+    top: 80px;
+    left: 600px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.footer span{
+    color: #00b9cf;
+}
+
+.footer .hours h2{
+    position: absolute;
+    color: #fff;
+    width: 170px;
+    top: 100px;
+    left: 600px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer .hours .days{
+    position: absolute;
+    color: #fff;
+    width: 280px;
+    top: 130px;
+    left: 600px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer .hours .time{
+    position: absolute;
+    color: #fff;
+    width: 280px;
+    top: 150px;
+    left: 600px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+.instagram{
+    position: absolute;
+    width: 32px;
+    height: 35px;
+    left: 599px;
+    bottom: 25px;
+    background: #00B9CF;
+}
+.instagram img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.facebook{
+    position: absolute;
+    width: 32px;
+    height: 35px;
+    left: 656px;
+    bottom: 25px;
+    background: #00B9CF;
+}
+.facebook img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.yelp{
+    position: absolute;
+    width: 32px;
+    height: 35px;
+    left: 713px;
+    bottom: 25px;
+    background: #00B9CF;
+}
+.yelp img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.google{
+    position: absolute;
+    width: 32px;
+    height: 35px;
+    left: 770px;
+    bottom: 25px;
+    background: #00B9CF;
+}
+.google img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logocircle{
+    position: absolute;
+    float: left;
+    width: 32px;
+    height: 35px;
+    left: 1300px;
+    top: 25px;
+}
+.logocircle img:hover{
+    transform: scale(1.1);
+    transition: .4s ease;
+}
+
+.copyright{
+    position: absolute;
+    width: 700px;
+    height: 40px;
+    left: 550px;
+    top: 300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (max-width: 768px){
+    body{
+        background: var(--color-background);
+        font-family: "Roboto", sans-serif;
+        height: 2200px;
+        margin: 0;
+        padding: 0;
+    }
+    #logo img{
+        position: absolute;
+        width: 147.28px;
+        height: 55px;
+        right: 100%;
+        top: 14px;
+    }
+    /*.menu{
+        position: absolute;
+        width: 147.28px;
+        height: 55px;
+        left: 50%;
+        top: 14px;
+    }*/
+    .estimate{
+        height: auto;
+    }
+    .midtext h1{
+        position: relative;
+        left: auto;
+        width: auto;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        top: 70px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 74px;
+        color: #FFFFFF;
+    }
+    
+    .midtext h2{
+        position: relative;
+        width: auto;
+        height: auto;
+        left: auto;
+        text-align: center;
+        top: 25px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 41px;
+        color: #FFFFFF;
+    }
+    .material{
+        position: relative;
+        width: 300px;
+        height: auto;
+        top: 35%;
+        left: 90px;
+    }
+    .material img{
+        width: 38px;
+        height: 38px;
+    }
+    .shingle{
+        box-sizing: border-box;
+        width: 58px;
+        height: 58px;
+    }
+    .shingle a{
+        margin-top: 5px;
+    }
+    .shingle p{
+        font-size: 16px;
+    }
+    
+    .tile{
+        width: 58px;
+        height: 58px;
+        left: 388px;
+        top: 586px;
+    }
+    .tile a{
+        margin-top: 5px;
+    }
+    .tile p{
+        font-size: 16px;
+    }
+
+
+    .metal{
+        width: 58px;
+        height: 58px;
+        left: 388px;
+        top: 586px;
+    }
+    .metal a{
+        margin-top: 5px;
+    }
+    .metal p{
+        font-size: 16px;
+    }
+
+    .membrane{
+        width: 58px;
+        height: 58px;
+        left: 388px;
+        top: 586px;
+    }
+    .membrane a{
+        margin-top: 5px;
+    }
+    .membrane p{
+        font-size: 16px;
+    }
+    .right{
+        display: none;
+    }
+    .area{
+        width: 225px;
+        height: 19px;
+        left: 20%;
+        top: 450px;
+        font-size: 16px;
+    }
+    .pitch{
+        left: 20%;
+        top: 550px;
+        font-size: 16px;
+    }
+    .stores{
+        left: 20%;
+        top: 650px;
+        font-size: 16px;
+    }
+    button{
+        left: 30%;
+        top: 800px;
+    }
+    .pricetotal{
+        width: 195px;
+        height: 250px;
+        left: 30%;
+        top: 950px;
+    }
+    .priceminimum{
+        left: 4%;
+        top: 1250px;
+    }
+    .pricemaximum{
+        left: 55%;
+        top: 1250px;
+    }
+    .footer{
+        top: 1650px;
+        width: 100%;
+        height: 600px;
+    }
+    .footer .because{
+        width: 250px;
+        top: 40px;
+        left: 4%;
+        font-size: 16px;
+    }
+    .footer .orlando h2{
+        top: 40px;
+        left: 4%;
+        font-size: 16px;
+    }
+    .footer .orlando h3{
+    top: 25px;
+    left: 4%;
+    font-size: 14px;
+    }
+    .footer .panhandle h2{
+        top: 40px;
+        left: 4%;
+        font-size: 16px;
+    }
+    .footer .panhandle h3{
+        top: 25px;
+        left: 4%;
+        font-size: 14px;
+    }
+    .footer .contact h2{
+        top: 30px;
+        left: 55%;
+        font-size: 16px;
+    }
+    .footer .contact .office{
+        top: 60px;
+        left: 55%;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .footer .contact .email{
+        width: 135px;
+        top: 80px;
+        left: 55%;
+        font-size: 14px;
+    }
+    .footer .hours h2{
+        top: 125px;
+        left: 55%;
+        font-size: 16px;
+    }
+    
+    .footer .hours .days{
+        top: 155px;
+        left: 55%;
+        font-size: 14px;
+    }
+    
+    .footer .hours .time{
+        top: 175px;
+        left: 55%;
+        font-size: 14px;
+    }
+    .instagram{
+        left: 59px;
+        bottom: 250px;
+    }
+    .facebook{
+        left: 99px;
+        bottom: 250px;
+    }
+    .yelp{
+        left: 139px;
+        bottom: 250px;
+    }
+    .google{
+        left: 179px;
+        bottom: 250px;
+    }
+    .logocircle{
+        left: 59px;
+        top: 400px;
+    }
+    .copyright{
+    width: 450px;
+    left: 1px;
+    top: 340px;
+    font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    body{
+        height: 1800px;
+    }
+    #logo img{
+        position: absolute;
+        width: 147.28px;
+        height: 55px;
+        right: 100%;
+        top: 14px;
+    }
+    
+    header ul{
+        margin-left: 800px;
+        width: 250px;
+    }
+    header li a{
+        width: 130px;
+        margin: 0 5px 0 5px;
+    }
+    .estimate{
+        height: auto;
+    }
+    .midtext h1{
+        position: relative;
+        left: auto;
+        width: auto;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        top: 70px;
+        font-size: 40px;
+    }
+    
+    .midtext h2{
+        position: relative;
+        width: auto;
+        height: auto;
+        left: auto;
+        text-align: center;
+        top: 35px;
+        font-size: 32px;
+    }
+    .material{
+        position: relative;
+        width: 500px;
+        height: auto;
+        top: 250px;
+        left: 400px;
+    }
+    .material img{
+        width: 78px;
+        height: 78px;
+    }
+    .shingle{
+        box-sizing: border-box;
+        width: 98px;
+        height: 98px;
+    }
+    .shingle a{
+        margin-top: 5px;
+    }
+    .shingle p{
+        font-size: 26px;
+    }
+    
+    .tile{
+        width: 98px;
+        height: 98px;
+        left: 388px;
+        top: 586px;
+    }
+    .tile a{
+        margin-top: 5px;
+    }
+    .tile p{
+        font-size: 26px;
+    }
+
+
+    .metal{
+        width: 98px;
+        height: 98px;
+        left: 388px;
+        top: 586px;
+    }
+    .metal a{
+        margin-top: 5px;
+    }
+    .metal p{
+        font-size: 26px;
+    }
+
+    .membrane{
+        width: 98px;
+        height: 98px;
+        left: 388px;
+        top: 586px;
+    }
+    .membrane a{
+        margin-top: 5px;
+    }
+    .membrane p{
+        font-size: 26px;
+    }
+    .right{
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        bottom: 750px;
+    }
+    .area{
+        width: 225px;
+        height: 19px;
+        left: 70%;
+        top: 850px;
+        font-size: 16px;
+    }
+    .pitch{
+        left: 70%;
+        top: 950px;
+        font-size: 16px;
+    }
+    .stores{
+        left: 70%;
+        top: 1050px;
+        font-size: 16px;
+    }
+    button{
+        left: 75%;
+        top: 1190px;
+    }
+    .pricetotal{
+        left: 800px;
+        top: 1285px;
+    }
+    .priceminimum{        
+        left: 550px;
+        top: 1305px;
+    }
+    .pricemaximum{
+        left: 1050px;
+        top: 1305px;
+    }
+
+    .footer{
+        top: 1650px;
+        width: 100%;
+    }
+    .logocircle{
+        left: 1000px;
+    }
+    .copyright{
+        left: 350px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        height: 1800px;
+    }
+    #logo img{
+        position: absolute;
+        width: 147.28px;
+        height: 55px;
+        right: 100%;
+        top: 14px;
+    }
+    header ul{
+        margin-left:50px;
+        width: 20px;
+    }
+    header li a{
+        font-size: 12px;
+        width: 50px;
+        margin: 0 5px 0 5px;
+    }
+    .estimate{
+        height: auto;
+    }
+    .midtext h1{
+        position: relative;
+        left: auto;
+        width: auto;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        top: 70px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 74px;
+        color: #FFFFFF;
+    }
+    
+    .midtext h2{
+        position: relative;
+        width: auto;
+        height: auto;
+        left: auto;
+        text-align: center;
+        top: 25px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 41px;
+        color: #FFFFFF;
+    }
+    .material{
+        position: relative;
+        width: 300px;
+        height: auto;
+        top: 35%;
+        left: 90px;
+    }
+    .material img{
+        width: 38px;
+        height: 38px;
+    }
+    .shingle{
+        box-sizing: border-box;
+        width: 58px;
+        height: 58px;
+    }
+    .shingle a{
+        margin-top: 5px;
+    }
+    .shingle p{
+        font-size: 16px;
+    }
+    
+    .tile{
+        width: 58px;
+        height: 58px;
+        left: 388px;
+        top: 586px;
+    }
+    .tile a{
+        margin-top: 5px;
+    }
+    .tile p{
+        font-size: 16px;
+    }
+
+
+    .metal{
+        width: 58px;
+        height: 58px;
+        left: 388px;
+        top: 586px;
+    }
+    .metal a{
+        margin-top: 5px;
+    }
+    .metal p{
+        font-size: 16px;
+    }
+
+    .membrane{
+        width: 58px;
+        height: 58px;
+        left: 388px;
+        top: 586px;
+    }
+    .membrane a{
+        margin-top: 5px;
+    }
+    .membrane p{
+        font-size: 16px;
+    }
+    .right{
+        display: none;
+    }
+    .area{
+        width: 225px;
+        height: 19px;
+        left: 20%;
+        top: 450px;
+        font-size: 16px;
+    }
+    .pitch{
+        left: 20%;
+        top: 550px;
+        font-size: 16px;
+    }
+    .stores{
+        left: 20%;
+        top: 650px;
+        font-size: 16px;
+    }
+    button{
+        left: 30%;
+        top: 800px;
+    }
+    .pricetotal{
+        width: 195px;
+        height: 250px;
+        left: 30%;
+        top: 950px;
+    }
+    .priceminimum{
+        left: 4%;
+        top: 1250px;
+    }
+    .pricemaximum{
+        left: 55%;
+        top: 1250px;
+    }
+    .footer{
+        top: 1650px;
+        width: 100%;
+        height: 600px;
+    }
+    .footer .because{
+        width: 250px;
+        top: 40px;
+        left: 4%;
+        font-size: 16px;
+    }
+    .footer .orlando h2{
+        top: 40px;
+        left: 4%;
+        font-size: 16px;
+    }
+    .footer .orlando h3{
+    top: 25px;
+    left: 4%;
+    font-size: 14px;
+    }
+    .footer .panhandle h2{
+        top: 40px;
+        left: 4%;
+        font-size: 16px;
+    }
+    .footer .panhandle h3{
+        top: 25px;
+        left: 4%;
+        font-size: 14px;
+    }
+    .footer .contact h2{
+        top: 30px;
+        left: 55%;
+        font-size: 16px;
+    }
+    .footer .contact .office{
+        top: 60px;
+        left: 55%;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .footer .contact .email{
+        width: 135px;
+        top: 80px;
+        left: 55%;
+        font-size: 14px;
+    }
+    .footer .hours h2{
+        top: 125px;
+        left: 55%;
+        font-size: 16px;
+    }
+    
+    .footer .hours .days{
+        top: 155px;
+        left: 55%;
+        font-size: 14px;
+    }
+    
+    .footer .hours .time{
+        top: 175px;
+        left: 55%;
+        font-size: 14px;
+    }
+    .instagram{
+        left: 59px;
+        bottom: 250px;
+    }
+    .facebook{
+        left: 99px;
+        bottom: 250px;
+    }
+    .yelp{
+        left: 139px;
+        bottom: 250px;
+    }
+    .google{
+        left: 179px;
+        bottom: 250px;
+    }
+    .logocircle{
+        left: 59px;
+        top: 400px;
+    }
+    .copyright{
+    width: 450px;
+    left: 1px;
+    top: 340px;
+    font-size: 11px;
+    } 
+}
